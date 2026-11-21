@@ -1,0 +1,29 @@
+# Sanal ortam (100 MB ustu torch_cpu.dll icerdigi icin ana repoda gizlenir, Releases ZIP'te bulunur)
+OpenWebUI/env/
+env/
+venv/
+.venv/
+
+# Kisisel sohbet gecmisi, kullanici hesaplari ve oturum anahtarlari
+**/.open-webui/
+**/data/
+**/uploads/
+**/cache/
+*.db
+*.sqlite*
+.webui_secret_key
+.env
+
+# Indirilecek model dosyalari ve calisma dizini
+models/
+WORKSPACE/
+*.gguf
+*.bin
+*.part
+*.zip
+
+# Gecici sistem ve onbellek dosyalari
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
