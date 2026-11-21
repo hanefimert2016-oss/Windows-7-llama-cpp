@@ -15,7 +15,6 @@ Windows 7 (64-bit), Windows 10 ve Windows 11 üzerinde **Occamy 1.0 (agent.gguf)
 
 ## 🚀 Kurulum ve Başlatma
 
-### Yöntem 1: Hazır Release Paketi ile Kurulum (Önerilen)
 1. **Releases** bölümünden tam paketi (`.zip`) indirin ve boş bir klasöre (örneğin `C:\Occamy-AI`) çıkarın.
 2. **`Kurulum_ve_Baslat.bat`** dosyasına sağ tıklayıp **"Yönetici olarak çalıştır"** seçeneğini seçin.
    * *Script otomatik olarak:* Windows 7 ise **VxKex** ve **Python 3.11.18** kurulumlarını yapar, sanal ortamı (`OpenWebUI\env`) uyarlar, **Occamy 1.0 (`agent.gguf`)** modelini indirir ve 3 terminali birden başlatır.
