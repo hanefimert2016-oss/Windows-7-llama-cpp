@@ -22,14 +22,6 @@ Windows 7 (64-bit), Windows 10 ve Windows 11 üzerinde **Occamy 1.0 (agent.gguf)
    * *(Not: Temiz Windows 7'de VxKex ilk kez kurulduysa bilgisayarı yeniden başlatıp `Kurulum_ve_Baslat.bat` dosyasını tekrar çalıştırın.)*
 3. Kurulum tamamlandıktan sonraki günlük kullanımlarda doğrudan **`Baslat.bat`** dosyasına çift tıklayarak sistemi başlatabilirsiniz.
 
-### Yöntem 2: Kaynak Kodundan Kurulum
-1. Repoyu klonlayın veya ZIP olarak indirin:
-   ```cmd
-   git clone https://github.com/hanefimert2016-oss/Windows-7-llama-cpp.git
-   cd Windows-7-llama-cpp
-   ```
-2. **`Kurulum_ve_Baslat.bat`** dosyasına sağ tıklayıp **"Yönetici olarak çalıştır"** deyin. Sanal ortam (`OpenWebUI\env`), gerekli Python kütüphaneleri (`open-webui`, `open-terminal`) ve `agent.gguf` modeli otomatik kurulup başlatılacaktır.
-
 ---
 
 ## ⚙️ Open WebUI Yapılandırması
